@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LawnCare/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LawnCare/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/LawnCare/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LawnCare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LawnCare/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LawnCare/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LawnCare/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698164546664</updated>
-      <workItem from="1698164578799" duration="1231000" />
+      <workItem from="1698164578799" duration="1802000" />
     </task>
     <servers />
   </component>
