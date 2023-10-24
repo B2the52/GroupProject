@@ -18,3 +18,11 @@ class ServiceListView(generic.ListView):
 
 class ServiceDetailView(generic.DetailView):
     model = Service
+
+
+def about_us(request):
+    num_services = Service.objects.all().count()
+    context = {
+        'num_services': num_services
+    }
+    return render(request, 'about_us.html', context=context)
