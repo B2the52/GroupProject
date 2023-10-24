@@ -26,3 +26,11 @@ def about_us(request):
         'num_services': num_services
     }
     return render(request, 'about_us.html', context=context)
+
+
+def blog(request):
+    num_services = Service.objects.all().count()
+    context = {
+        'num_services': num_services
+    }
+    return render(request, 'blog.html', context=context)
