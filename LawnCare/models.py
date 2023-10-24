@@ -29,6 +29,10 @@ class Service(models.Model):
     def __str__(self):
         return self.serv_title
 
+    def get_absolute_url(self):
+        """Returns the URL to access a particular author instance."""
+        return reverse('service_detail', args=[str(self.id)])
+
 
 
 class Invoice(models.Model):

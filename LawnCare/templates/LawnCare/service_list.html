@@ -1,13 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
  <h1>Services Provided</h1>
- <ul>
- <li>
- <a>Lawn Mowing</a>
- </li>
-     <li><a>Landscaping</a></li>
-     <li><a>Trimming</a></li>
-     <li><a>Weed Eating</a></li>
-
- </ul>
+    {% if service_list %}
+        <table class="table table-bordered">
+            {% for service in service_list %}
+                <tr class="table-secondary">
+                    <td><a href="{{ service.get_absolute_url }}">{{ service.serv_title }}</a></td>
+                </tr>
+            {% endfor %}
+    {% else %}
+        <p>There are no authors in the library.</p>
+    {% endif %}
+        </table>
 {% endblock %}
