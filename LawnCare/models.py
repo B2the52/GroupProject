@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.contrib.auth.models import User
 
 
 class RequestContact(models.Model):
@@ -7,6 +8,7 @@ class RequestContact(models.Model):
     cont_first_name = models.CharField(max_length=200)
     cont_last_name = models.CharField(max_length=200)
     cont_preferredService = models.CharField(max_length=200)
+    usr_id = models.ForeignKey(User, on_delete=models.RESTRICT, null=True)
 
 
 class UserReview(models.Model):
@@ -41,3 +43,4 @@ class Invoice(models.Model):
     Inv_total = models.CharField(max_length=200)
     Inv_description = models.CharField(max_length=200)
     serv_id = models.ForeignKey('Service', on_delete=models.RESTRICT, null=True)
+

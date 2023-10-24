@@ -50,4 +50,4 @@ class ServiceCreate(CreateView):
     def form_valid(self, form):
         post = form.save(commit=False)
         post.save()
-        return HttpResponseRedirect(reverse('author_list'))
+        return HttpResponseRedirect(reverse('service_list'))
