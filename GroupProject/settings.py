@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'LawnCare.apps.LawncareConfig',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [

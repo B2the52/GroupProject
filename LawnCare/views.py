@@ -45,7 +45,7 @@ def blog(request):
 
 class ServiceCreate(CreateView):
     model = Service
-    fields = ['service_id', 'service_title', 'service_info', 'service_cost']
+    fields = ['serv_id', 'serv_title', 'serv_info', 'serv_cost']
 
     def form_valid(self, form):
         post = form.save(commit=False)
