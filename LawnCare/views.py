@@ -16,7 +16,7 @@ def index(request):
     context = {
         'num_services': num_services
     }
-    return render(request, 'index.html', context=context)
+    return render(request, 'LawnCare/index.html', context=context)
 
 
 class ServiceListView(generic.ListView):
