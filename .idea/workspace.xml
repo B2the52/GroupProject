@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="" />
+=======
     <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LawnCare/templates/LawnCare/service_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GroupProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LawnCare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LawnCare/urls.py" afterDir="false" />
     </list>
+>>>>>>> 2bd94c094255089a83cb4ec34a4ebd80e2b1c1dd
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XDXInAHsyBw7xWAOF1HaZhktle" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,6 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,7 +91,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698164546664</updated>
+<<<<<<< HEAD
+      <workItem from="1698164578799" duration="9449000" />
+=======
       <workItem from="1698164578799" duration="9152000" />
+      <workItem from="1698193813202" duration="2693000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 2bd94c094255089a83cb4ec34a4ebd80e2b1c1dd
     </task>
     <servers />
   </component>
