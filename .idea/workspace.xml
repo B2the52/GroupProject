@@ -8,10 +8,9 @@
     <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="" />
 =======
     <list default="true" id="91930d6c-2c0f-4d2e-a984-bf0160dbecc6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/757b382f-652a-4906-85cb-a72928c1a941.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/757b382f-652a-4906-85cb-a72928c1a941.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GroupProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/GroupProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LawnCare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LawnCare/urls.py" afterDir="false" />
     </list>
 >>>>>>> 2bd94c094255089a83cb4ec34a4ebd80e2b1c1dd
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +38,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/thies/OneDrive/Desktop/GitHub WebDevelopment/activity-4---python-classes-B2the52",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,8 +96,14 @@
       <workItem from="1698164578799" duration="9449000" />
 =======
       <workItem from="1698164578799" duration="9152000" />
+<<<<<<< Updated upstream
       <workItem from="1698193813202" duration="2693000" />
  2bd94c094255089a83cb4ec34a4ebd80e2b1c1dd
+=======
+      <workItem from="1698193813202" duration="5212000" />
+      <workItem from="1699217583273" duration="16000" />
+      <workItem from="1699217657281" duration="129000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

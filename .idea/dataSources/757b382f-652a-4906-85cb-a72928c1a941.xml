@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="Django default">
   <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.49">
+<<<<<<< Updated upstream
     <root id="1">
       <ServerVersion>3.43.0</ServerVersion>
     </root>
     <collation id="2" parent="1" name="RTRIM"/>
+=======
+    <root id="1"/>
+    <collation id="2" parent="1" name="BINARY"/>
+>>>>>>> Stashed changes
     <collation id="3" parent="1" name="NOCASE"/>
     <collation id="4" parent="1" name="BINARY"/>
     <package id="5" parent="1" name="json_tree"/>
