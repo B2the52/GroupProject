@@ -36,7 +36,6 @@ class Service(models.Model):
         return reverse('service_detail', args=[str(self.id)])
 
 
-
 class Invoice(models.Model):
     Inv_no = models.CharField(max_length=50)
     Inv_date = models.CharField(max_length=200)

@@ -51,3 +51,8 @@ class ServiceCreate(CreateView):
         post = form.save(commit=False)
         post.save()
         return HttpResponseRedirect(reverse('service_list'))
+
+
+class ReviewCreate(CreateView):
+    model = Review
+    fields = ['rev_rating', 'rev_comments']
