@@ -12,8 +12,8 @@ def register(request):
             form.save()
             # get the new user info and set the group for this user to LibraryMember
             user = User.objects.get(username=uname)
-            lib_group = Group.objects.get(name='LibraryMember')
-            user.groups.add(lib_group)
+            cust_group = Group.objects.get(name='Customer')
+            user.groups.add(cust_group)
             user.save()
             return redirect('login')
 
