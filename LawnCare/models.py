@@ -27,6 +27,7 @@ class Service(models.Model):
     serv_title = models.CharField(max_length=200)
     serv_info = models.CharField(max_length=200)
     serv_cost = models.CharField(max_length=200)
+    serv_rev = models.ForeignKey('Review', on_delete=models.RESTRICT, null=True)
 
     def __str__(self):
         return self.serv_title

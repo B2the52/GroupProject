@@ -3,5 +3,8 @@
 <h1>{{ service.serv_title }}</h1>
     <p>{{ service.serv_info }}</p>
     <p>{{ service.serv_cost }}</p>
-    <p>Would you like to leave a review?</p>
+    <h2>Reviews</h2>
+    <p>Rating: {{ service.serv_rev.rev_rating }}</p>
+    <p>Comments: {{ service.serv_rev.rev_comments }}</p>
+    <a href="{% url 'review_create' %}">Would you like to write a review of this service?</a>
 {% endblock %}

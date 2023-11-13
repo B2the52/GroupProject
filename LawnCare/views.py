@@ -55,7 +55,7 @@ class ServiceCreate(CreateView):
 
 class ReviewCreate(CreateView):
     model = Review
-    fields = ['rev_rating', 'rev_comments']
+    fields = ['rev_rating', 'rev_comments', 'serv_id']
 
 
 class BlogCreate(CreateView):
@@ -71,3 +71,6 @@ class BlogCreate(CreateView):
 class BlogDetailView(generic.DetailView):
     model = BlogPost
 
+
+class BlogListView(generic.ListView):
+    model = BlogPost
