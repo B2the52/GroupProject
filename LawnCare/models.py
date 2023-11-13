@@ -36,10 +36,17 @@ class Service(models.Model):
         return reverse('service_detail', args=[str(self.id)])
 
 
+
 class Invoice(models.Model):
     Inv_no = models.CharField(max_length=50)
     Inv_date = models.CharField(max_length=200)
     Inv_total = models.CharField(max_length=200)
     Inv_description = models.CharField(max_length=200)
     serv_id = models.ForeignKey('Service', on_delete=models.RESTRICT, null=True)
+
+    
+class BlogPost(models.Model):
+    Blog_title = models.CharField(max_length=50)
+    Blog_text = models.CharField(max_length=1000)
+
 
