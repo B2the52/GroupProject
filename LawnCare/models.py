@@ -49,4 +49,11 @@ class BlogPost(models.Model):
     Blog_title = models.CharField(max_length=50)
     Blog_text = models.CharField(max_length=1000)
 
+    def __str__(self):
+        return self.Blog_title
+    
+    def get_absolute_url(self):
+        """Returns the URL to access a particular author instance."""
+        return reverse('service_detail', args=[str(self.id)])
+
 
