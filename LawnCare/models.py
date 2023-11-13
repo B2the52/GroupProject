@@ -51,9 +51,9 @@ class BlogPost(models.Model):
 
     def __str__(self):
         return self.Blog_title
-    
+
     def get_absolute_url(self):
         """Returns the URL to access a particular author instance."""
-        return reverse('service_detail', args=[str(self.id)])
+        return reverse('blog_post', args=[str(self.id)])
 
 
