@@ -2,6 +2,15 @@
 {% block content %}
  <h1>CS Lawn Care Blog</h1>
  <p>This is the start of the CS Lawn Care blog, stay tuned for further updates!</p>
-
-
+    {% if blog %}
+        <table class="table table-bordered">
+            {% for BlogPost in Blog %}
+                <tr class="table-secondary">
+                    <td><a href="{{ BlogPost.get_absolute_url }}">{{ BlogPost.Blog_title }}</a></td>
+                </tr>
+            {% endfor %}
+    {% else %}
+        <p>There are no services</p>
+    {% endif %}
+        </table>
 {% endblock %}

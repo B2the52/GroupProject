@@ -62,3 +62,12 @@ class BlogCreate(CreateView):
     model = BlogPost
     fields = ['Blog_title', 'Blog_text']
 
+    def form_valid(self, form):
+        post = form.save(commit=False)
+        post.save()
+        return HttpResponseRedirect(reverse('blog'))
+
+
+class BlogDetailView(generic.DetailView):
+    model = BlogPost
+
