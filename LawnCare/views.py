@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Service, Review, RequestContact, UserReview, Invoice
+from .models import Service, Review, RequestContact, UserReview, Invoice, BlogPost
 from django.views import generic
 from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -56,3 +56,9 @@ class ServiceCreate(CreateView):
 class ReviewCreate(CreateView):
     model = Review
     fields = ['rev_rating', 'rev_comments']
+
+
+class BlogCreate(CreateView):
+    model = BlogPost
+    fields = ['Blog_title', 'Blog_text']
+

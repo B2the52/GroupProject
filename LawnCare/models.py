@@ -44,7 +44,7 @@ class Invoice(models.Model):
     Inv_description = models.CharField(max_length=200)
     serv_id = models.ForeignKey('Service', on_delete=models.RESTRICT, null=True)
 
-    
+
 class BlogPost(models.Model):
     Blog_title = models.CharField(max_length=50)
     Blog_text = models.CharField(max_length=1000)
