@@ -58,3 +58,12 @@ class BlogPost(models.Model):
         return reverse('blog_post', args=[str(self.id)])
 
 
+class Image(models.Model):
+    title = models.CharField(max_length=200)
+    image = models.ImageField(upload_to='images')
+
+    def __str__(self):
+        return self.title
+
+
+
