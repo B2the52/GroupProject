@@ -57,6 +57,11 @@ class ReviewCreate(CreateView):
     model = Review
     fields = ['rev_rating', 'rev_comments', 'serv_id']
 
+    def form_valid(self, form):
+        post = form.save(commit=False)
+        post.save()
+        return HttpResponseRedirect(reverse('service_list'))
+
 
 class BlogCreate(CreateView):
     model = BlogPost
